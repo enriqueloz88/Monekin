@@ -50,6 +50,13 @@ The translations are in a json format <a href="https://github.com/enriqueloz88/M
 
 It is important that all new json files generated have exactly the same keys as the files already exposed. It is recommended to look at the _en.json_ file for reference. You can also modify any existing translation file, if you consider that any translation can be improved.
 
+### Default Categories
+
+When adding a language you may also want to translate the home categories, the categories that the user will see as soon as they enter the app. To do this, go to this <a href="https://github.com/enriqueloz88/Monekin/tree/main/i18n/es.json">file</a>, look at the "names" attributes of each of the categories, and add a new name. Remember that you have to add it in all possible categories and subcategories.
+
+### Currencies
+
+Another good way to help the project is by adding new currencies. Each currency must have a code (any code that is returned by the <a href="https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-exchange-rates">Coinbase API</a> is supported), and a names object, in the different languages of the application
 
 <!-- CONTACT -->
 
