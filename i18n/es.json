@@ -1,0 +1,362 @@
+{
+  "GENERAL": {
+    "cancel": "Cancelar",
+    "or": "o",
+    "understood": "Entendido",
+    "confirm": "Confirmar",
+    "add": "Añadir",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "income": "Ingreso",
+    "expense": "Gasto",
+    "incomes": "Ingresos",
+    "expenses": "Gastos",
+    "account": "Cuenta",
+    "accounts": "Cuentas",
+    "categories": "Categorías",
+    "category": "Categoría",
+    "transaction": "Transacción",
+    "transactions": "Transacciones",
+    "store-limit": "Almacenamiento máximo de la app alcanzado. Acción cancelada",
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "TIME": {
+      "range": "Rango temporal",
+      "monthly": "Mensual",
+      "annualy": "Anual",
+      "quaterly": "Trimestral",
+      "weekly": "Semanal",
+      "custom": "Personalizado",
+      "infinite": "Siempre",
+      "start-date": "Fecha de inicio",
+      "end-date": "Fecha de fin",
+      "no-repeat": "Sin repetición",
+      "periodicity": "Periodicidad",
+      "THIS": {
+        "Monthly": "Este mes",
+        "Annualy": "Este año",
+        "Quaterly": "Este trimestre",
+        "Weekly": "Esta semana",
+        "Infinite": "Desde siempre",
+        "Custom": "Rango personalizado"
+      }
+    },
+    "VALIDATIONS": {
+      "required": "Campo obligatorio"
+    }
+  },
+  "INTRO": {
+    "start": "Empecemos",
+    "skip": "Saltar",
+    "next": "Siguiente",
+    "select-your-currency": "Selecciona tu divisa",
+    "sl1Title": "Bienvenido a Monekin",
+    "sl1Descr": "Para empezar, selecciona tu moneda. Podrás cambiar de divisa y de idioma mas adelante en todo momento en los ajustes de la aplicación",
+    "sl2Title": "Seguro, privado y confiable",
+    "sl2Descr": "Tus datos son solo tuyos. Almacenamos la información directamente en tu telefono, sin pasar por servidores externos. Esto hace que puedas usar la aplicación incluso sin Internet",
+    "sl3Title": "Lleva el control",
+    "sl3Descr": "Con Monekin, podrás al fin lograr la independencia financiaria que tanto deseas. Podrás ver gráficas, presupuestos, consejos, estadisticas y mucho más sobre tu dinero."
+  },
+  "LOGIN": {
+    "login": "Inicia Sesión",
+    "email": "Email",
+    "password": "Contraseña",
+    "forgot_pass": "Contraseña olvidada?",
+    "not_a_user": "Aún no tienes cuenta?",
+    "start-with-google": "Entra con Google",
+    "start-with-email": "Registrate con email",
+    "not_verified": "Usuario no validado. Revisa tu bandeja de entrada",
+    "password-validator": "* Mínimo 8 carácteres y al menos un número"
+  },
+  "REGISTER": {
+    "register": "Registrarse",
+    "already_a_user": "Ya tienes cuenta?",
+    "terms1": "He leido y acepto los ",
+    "terms2": "términos de uso",
+    "terms3": "política de privacidad",
+    "terms_not_accepted": "Debes aceptar los terminos de uso"
+  },
+  "RESET-PASSWORD": {
+    "reset-password": "Recuperar contraseña",
+    "description": "Introduce tu email a continuación y te enviaremos instrucciones para recuperar tu contraseña"
+  },
+  "VERIFY-EMAIL": {
+    "title": "Comprueba tu bandeja de entrada",
+    "description": "Hemos enviado un email de verificación a tu correo con un enlace. Pulsa en ese enlace e inicia sesión de nuevo. Comprueba la carpeta de Spam si no encuentras el mensaje."
+  },
+  "TABS": {
+    "filter-transactions": "Filtrar transacciones",
+    "should-create-account.header": "Ops!",
+    "should-create-account.message": "Debes crear una cuenta antes de empezar a crear transacciones",
+    "TAB1": {
+      "title": "Home",
+      "hello": "Hola",
+      "welcome": "Bienvenido a Monekin",
+      "total-balance": "Saldo total",
+      "my-accounts": "Mis cuentas",
+      "tools": "Herramientas",
+      "important-expenses": "Gastos mas grandes",
+      "empty-expenses": "Parece que aun no tienes transacciones para este periodo. Añade una pulsando el botón '+' de la parte inferior",
+      "healthy-title": "Salud financiera",
+      "healthy-text1": "Vaya, parece que has conseguido ahorrar un {{value}}% de tus ingresos durante este periodo. Parece que ya eres todo un expert@. Sigue asi!",
+      "healthy-text2": "Enhorabuena, has conseguido ahorrar un {{value}}% de tus ingresos durante este periodo. Visita la pestaña de análisis para ver donde puedes ahorrar aun más!",
+      "healthy-text3": "Enhorabuena, has conseguido ahorrar un {{value}}% de tus ingresos durante este periodo. Sin embargo, creemos que aun puedes hacer mucho mas, tu puedes!",
+      "healthy-text4": "Vaya, no has conseguido ahorrar nada durante este periodo :( Visita la pestaña de análisis para ver donde estan tus debilidades financieras."
+    },
+    "TAB2": {
+      "title": "Transacciones",
+      "balance": "Balance",
+      "empty": "No se han encontrado transacciones que mostrar aquí. Añade una transacción pulsando el botón '+' de la parte inferior",
+      "searcher.placeholder": "Busca por categoría, descripción..."
+    },
+    "TAB3": {
+      "title": "Análisis",
+      "without-subcat": "Otro - ",
+      "average-by-transaction": "Medía/transacción",
+      "average-by-day": "Medía/día",
+      "balance": "Balance final",
+      "balance-by-period": "Balance medio/periodo"
+    }
+  },
+  "TRANSACTION": {
+    "new": "Nueva transacción",
+    "new.short": "Nueva transacc.",
+    "edit": "Editar transacción",
+    "delete": "Eliminar transacción",
+    "delete.warning-message": "Esta acción es irreversible",
+    "delete.success": "Transacción eliminada correctamente",
+    "FORM": {
+      "description": "Descripción",
+      "description-info": "Añadir una nota te ayudará a encontrar mas rapidamente esta transacción en un futuro",
+      "description.add": "Añade una nota",
+      "without_category": "Sin especificar"
+    }
+  },
+  "TRANSFER": {
+    "display": "Transferencia",
+    "new": "Nueva transferencia",
+    "new.short": "Hacer transfer.",
+    "edit": "Editar transferencia",
+    "delete": "Eliminar transferencia",
+    "delete.warning-message": "Esta acción es irreversible",
+    "delete.success": "Transferencia eliminada correctamente",
+    "need-two-accounts.warning.header": "Ops!",
+    "need-two-accounts.warning.message": "Se necesitan al menos dos cuentas para realizar esta acción. Si lo que necesitas es ajustar o editar el balance actual de esta cuenta pulsa el botón de editar",
+    "FORM": {
+      "from": "Cuenta origen",
+      "to": "Cuenta destino"
+    }
+  },
+  "ACCOUNT": {
+    "date": "Fecha de creación",
+    "balance": "Saldo de la cuenta",
+    "n_transactions": "Número de transacciones",
+    "add_money": "Añadir dinero",
+    "withdraw_money": "Retirar dinero",
+    "TYPES": {
+      "title": "Tipo de cuenta",
+      "warning": "Una vez elegido el tipo de cuenta este no podrá cambiarse en un futuro",
+      "normal": "Cuenta corriente",
+      "normal.descr": "Útil para registrar tus finanzas del día a día. Es la cuenta mas común, permite añadir gastos, ingresos...",
+      "saving": "Cuenta de ahorros",
+      "saving.descr": "Solo podrás añadir y retirar dinero de ella desde otras cuentas. Perfecta para empezar a ahorrar"
+    },
+    "FORM": {
+      "name": "Nombre de la cuenta",
+      "name.placeholder": "Ej: Cuenta de ahorros",
+      "description": "Descripción",
+      "initial-balance": "Balance inicial",
+      "current-balance": "Balance actual",
+      "create": "Crear cuenta",
+      "edit": "Editar cuenta",
+      "already-exists": "Ya existe otra cuenta con el mismo nombre. Por favor, escriba otro",
+      "users": "Usuarios de la cuenta",
+      "admin": "Administrador",
+      "collaborator": "Colaborador"
+    },
+    "SHARE": {
+      "title": "Compartir esta cuenta",
+      "title-short": "Compartir",
+      "description": "Introduce el ID del usuario en cuestión para compartir esta cuenta. El usuario podrá ver, añadir, editar o modificar todas las transacciones de esta cuenta",
+      "correct": "Cuenta compartida correctamente"
+    },
+    "DELETE": {
+      "warning-header": "¿Estas seguro?",
+      "warning-text": "Esta acción borrara esta cuenta y todas sus transacciones",
+      "success": "Cuenta eliminada correctamente"
+    },
+    "SELECT": {
+      "one": "Selecciona una cuenta",
+      "multiple": "Selecciona cuentas"
+    }
+  },
+  "CURRENCIES": {
+    "currency-converter": "Conversor de divisas",
+    "select-a-currency": "Selecciona una divisa",
+    "search-placeholder": "Busca por nombre o por código de la divisa"
+  },
+  "RECURRENT-TRANSACTIONS": {
+    "title": "Movimientos recurrentes",
+    "empty": "Parece que no posees ninguna transacción que se repita periodicamente. Crea una transacción que se repita mensual, anual o semanalmente y aparecerá aquí",
+    "balance": "Balance total",
+    "DETAILS": {
+      "title": "Detalles del movimiento",
+      "each-week": "Cada semana",
+      "each-month": "Cada mes",
+      "each-year": "Cada año",
+      "start-date": "Primer movimiento",
+      "balance-expense": "Pagado hasta ahora",
+      "balance-income": "Ingresado hasta ahora",
+      "end-date": "Fecha de finalización",
+      "pause-header": "Pausar pagos",
+      "pause-message": "Con esta acción se dará por finalizada esta transacción hoy, y no se produciran mas pagos a partir de ahora. Pagos previos al día de hoy no serán eliminados del balance",
+      "pause-correctly": "Transacción pausada correctamente",
+      "delete-header": "Eliminar pagos",
+      "delete-message": "Esta acción es irreversible y borrara todos tus pagos del balance",
+      "delete-correctly": "Transacciones eliminadas correctamente"
+    },
+    "SELECTOR": {
+      "title": "¿Cómo se repite su transacción?",
+      "until": "Hasta",
+      "infinite": "El infinito",
+      "date": "Una fecha"
+    }
+  },
+  "CATEGORIES": {
+    "create": "Crear categoría",
+    "new-category": "Nueva categoría",
+    "new-category-incomplete": "Por favor, completa los campos necesarios. Si no has elegido icono, hazlo",
+    "already-exists": "Esta categoría ya existe. Puede que quieras editarla",
+    "edit": "Editar categoría",
+    "edit.success": "Categoría editada correctamente",
+    "name": "Nombre de la categoría",
+    "type": "Tipo de categoría",
+    "both-types": "Ambos tipos",
+    "parent-category": "Categoría padre",
+    "is-subcategory": "¿Es una subcategoría?",
+    "delete.success": "Categoría eliminada correctamente",
+    "delete-warning-header": "¿Eliminar categoría?",
+    "delete-warning-message": "Esta acción borrara todas las transacciones relativas a esta categoría",
+    "SELECT": {
+      "title": "Selecciona categorías",
+      "select-all": "Seleccionar todas",
+      "all": "Todas las categorías"
+    }
+  },
+  "BUDGETS": {
+    "title": "Presupuestos",
+    "repeated": "Periódicos",
+    "one-time": "Una vez",
+    "anual": "Anuales",
+    "week": "Semanales",
+    "month": "Mensuales",
+    "actives": "Activos",
+    "pending": "Pendientes de comenzar",
+    "finish": "Finalizados",
+    "to-expend": "por gastar",
+    "days-left": "días restantes",
+    "days-to-start": "días para empezar",
+    "since-expiration": "días desde su expiración",
+    "no-budgets": "Parece que no hay presupuestos que mostrar en esta sección. Empieza creando un presupuesto pulsando el botón inferior",
+    "delete": "Eliminar presupuesto",
+    "delete-warning": "Esta acción es irreversible. Categorías y transacciones referentes a este presupuesto no serán eliminados",
+    "FORM": {
+      "title": "Añade un presupuesto",
+      "name": "Nombre del presupuesto",
+      "value": "Cantidad límite",
+      "repetition": "Repetición",
+      "create": "Añade el presupuesto",
+      "edit": "Editar presupuesto"
+    },
+    "DETAILS": {
+      "title": "Detalles del presupuesto",
+      "budget-value": "Presupuestado",
+      "statistics": "Estadísticas",
+      "you-already-expend": "Ya has gastado el",
+      "budget-exceeded-for": "Has sobrepasado el presupuesto en",
+      "of-the-budget": "del presupuesto",
+      "expend-diary-left": "Gasto diario restante",
+      "expend-evolution": "Evolución del gasto",
+      "no-transactions": "Parece que no has realizado ningún gasto relativo a este presupuesto"
+    }
+  },
+  "GO-PREMIUM": {
+    "title": "Elige un plan",
+    "description": "Consulta las ventajas de todos nuestros planes premium. Elige uno y cancela cuando quieras.",
+    "accounts-limit": "Número máximo de cuentas",
+    "budgets-limit": "Número máximo de presupuestos",
+    "recurring-transactions-limit": "Transacciones recurrentes permitidas",
+    "support": "Apoyo al desarrollador",
+    "anual-price": "Precio al año",
+    "monthly-price": "Precio al mes",
+    "change-plan": "Para cambiar de plan primero has de cancelar anteriores subscripciones y esperar a que estas expiren",
+    "return-to-free": "Para volver al plan gratuito anula las subscripciones que tengas actualmente activas",
+    "current-plan": "Este es tu plan actual. Puedes cancelarlo sin compromiso en cualquier momento",
+    "current-free-plan": "Ahora mismo te encuentras aquí, en el plan básico",
+    "admin-subscriptions": "Administrar subscripciones"
+  },
+  "BACKUP": {
+    "EXPORT": {
+      "title": "Exportar datos",
+      "description": "Guarda una copia de seguridad de todas tus cuentas, presupuestos, transacciones, ajustes...",
+      "csv": "Exportar a CSV",
+      "csv.description": "Exporta todas tus transacciones a un fichero .csv. Con este fichero podras realizar analisis profundos en otras plataformas como Excel",
+      "csv.note": "<b>Nota:</b> No podrás importar datos a Monekin con ficheros CSV. Para ello usa la función 'Importar datos'",
+      "dialog_title": "Guardar/Enviar archivo",
+      "success_in_documents": "Archivo guardado correctamente en Almacenamiento interno/Documents",
+      "success_in_data": "Archivo guardado/enviado correctamente",
+      "error": "Error al descargar el archivo. Por favor contacte con el desarrollador via lozin.technologies@gmail.com"
+    },
+    "IMPORT": {
+      "title": "Importar datos",
+      "file": "Importar archivo",
+      "start-from-zero": "Empezar desde cero",
+      "description": "Reemplaza todos los datos que hay actualmente en la app por otros que hayas guardado previamente",
+      "longDescription": "Si ya has usado nuestra aplicación antes puede que tengas una copia de seguridad guardada en tu disposivo con el nombre Monekin_backup_AÑO_MES_DIA.json. Si prefieres puedes realizar esta importación de datos mas adelante. Antes de desinstalar esta aplicación o cambiar de movil recuerda siempre realizar esta copia de seguridad",
+      "success": "Importación realizada con exito"
+    },
+    "GUIDE": {
+      "title": "Guía de como importar/exportar sus datos"
+    }
+  },
+  "SETTINGS": {
+    "title": "Ajustes",
+    "display-name": "Nombre de usuario",
+    "display-name.description": "Dejanos saludarte como es debido!",
+    "lang": "Idioma",
+    "first_day_of_week": "Primer día de la semana",
+    "edit-categories": "Editar categorias",
+    "edit-categories.description": "Crea y edita categorías a tu gusto",
+    "other": "Ajustes avanzados",
+    "other.description": "Otros ajustes generales de personalización de la app",
+    "data": "Copias de seguridad",
+    "data.description": "Descarga tus datos en diferentes formatos o importalos",
+    "legal": "Términos y privacidad",
+    "legal.description": "Revisa licencias y otros terminos legales de nuestra app",
+    "contact": "Contacto",
+    "contact.description": "Reporta errores o dejanos tus dudas y sugerencias",
+    "rate-us": "Califícanos",
+    "rate-us.description": "¡Cualquier valoración es bienvenida!",
+    "change-subscription": "Cambia de plan",
+    "go-premium": "Hazte premium",
+    "current-subscription": "Plan actual",
+    "change-currency": "Divisa predeterminada",
+    "delete-all": "Eliminar mis datos",
+    "delete-all-header1": "Alto ahí padawan ⚠️⚠️",
+    "delete-all-message1": "¿Estas seguro de que quieres continuar? Todos tus datos serán borrados permanentemente y no podrán ser recuperados",
+    "delete-all-header2": "Un último paso ⚠️⚠️",
+    "delete-all-message2": "Al eliminar una cuenta eliminarás todos tus datos personales almacenados. Tus cuentas, transacciones, presupuestos y categorías serán borrados y no podrán ser recuperados. ¿Estas de acuerdo?",
+    "LICENSES": {
+      "title": "Licencias",
+      "icons": "Iconos",
+      "text1": "Los iconos usados en esta aplicación han sido extraidos desde",
+      "text2": "Hemos de destacar a los siguientes autores:"
+    },
+    "PRIVACY": {
+      "title": "Política de privacidad"
+    },
+    "TERMS-OF-USE": {
+      "title": "Términos de uso"
+    }
+  }
+}
