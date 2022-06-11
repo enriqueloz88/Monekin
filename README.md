@@ -52,11 +52,34 @@ It is important that all new json files generated have exactly the same keys as 
 
 ### Default Categories
 
-When adding a language you may also want to translate the home categories, the categories that the user will see as soon as they enter the app. To do this, go to this <a href="https://github.com/enriqueloz88/Monekin/tree/main/i18n/es.json">file</a>, look at the "names" attributes of each of the categories, and add a new name. Remember that you have to add it in all possible categories and subcategories.
+When adding a language you may also want to translate the home categories, the categories that the user will see as soon as they enter the app. To do this, go to this <a href="https://github.com/enriqueloz88/Monekin/tree/main/constants/default-categories.ts">file</a>, look at the "names" attributes of each of the categories, and add a new name. Remember that you have to add it in all possible categories and subcategories.
 
 ### Currencies
 
-Another good way to help the project is by adding new currencies. Each currency must have a code (any code that is returned by the <a href="https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-exchange-rates">Coinbase API</a> is supported), and a names object, in the different languages of the application
+Another good way to help the project is by adding new currencies. Each currency must have a code (any code that is returned by the <a href="https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-exchange-rates">Coinbase API</a> is supported), and a names object, in the different languages of the application. Well, consult and add the currencies supported by our app <a href="https://github.com/enriqueloz88/Monekin/tree/main/constants/app-currencies.ts">here</a>
+
+### Google Play presentation
+
+This is one of the parts where we most appreciate your help. The presentation in the application stores is important to achieve a greater number of downloads. You can find everything related to this part in the "Resources" folder of this project.
+
+Within "Resources", you will see a folder for each supported language in the google play tab. Inside each language folder we have a screenshots directory, where the screenshots used to create the presentation images are found, a powerpoint, with which these screenshots have been laid out, and finally, a "mockups" folder with the slides of this exported powerpoint png format.Mas detalladamente, la estructura es la siguiente
+
+```
+- lang1
+    - powerpoint (used to create the png images)
+    - mockups
+         - final_image1.png
+         - final_image2.png
+    - screenshots
+         - screenshot_to_insert_in_ppt1.png
+         - screenshot_to_insert_in_ppt2.png
+- lang2
+    - powerpoint (used to create the png images)
+    ......
+    ......
+````
+
+If you are going to add or modify any files, please try to keep this pattern as much as possible (it does not matter how the images are named within the directories)
 
 <!-- CONTACT -->
 
