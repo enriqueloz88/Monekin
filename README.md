@@ -56,7 +56,7 @@ When adding a language you may also want to translate the home categories, the c
 
 ### Currencies
 
-Another good way to help the project is by adding new currencies. Each currency must have a code (any code that is returned by the <a href="https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-exchange-rates">Coinbase API</a> is supported), and a names object, in the different languages of the application. Well, consult and add the currencies supported by our app <a href="https://github.com/enriqueloz88/Monekin/tree/main/constants/app-currencies.ts">here</a>
+Another good way to help the project is by adding new currencies. Each currency must have a code (any code that is returned by the <a href="https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-exchange-rates">Coinbase API</a> is supported), and a names object, in the different languages of the application. Well, consult and add the currencies supported by our app <a href="https://github.com/enriqueloz88/Monekin/tree/main/constants/app-currencies.ts">here</a>.
 
 ### Google Play presentation
 
