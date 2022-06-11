@@ -60,7 +60,7 @@ Another good way to help the project is by adding new currencies. Each currency 
 
 ### Google Play presentation
 
-This is one of the parts where we most appreciate your help. The presentation in the application stores is important to achieve a greater number of downloads. You can find everything related to this part in the "Resources" folder of this project.
+This is one of the parts where we most appreciate your help. The presentation in the Google Play is important to achieve a greater number of downloads. You can find everything related to this part in the "Resources" folder of this project.
 
 Within "Resources", you will see a folder for each supported language in the google play tab. Inside each language folder we have a screenshots directory, where the screenshots used to create the presentation images are found, a powerpoint, with which these screenshots have been laid out, and finally, a "mockups" folder with the slides of this exported powerpoint png format.Mas detalladamente, la estructura es la siguiente
 
@@ -79,7 +79,7 @@ Within "Resources", you will see a folder for each supported language in the goo
     ......
 ````
 
-If you are going to add or modify any files, please try to keep this pattern as much as possible (it does not matter how the images are named within the directories)
+If you are going to add or modify any files, please try to keep this pattern as much as possible (it does not matter how the images are named within the directories). You can also add your data exported from the application to the seeders folder, so that we can replicate how you have done the screenshots in a simple way
 
 <!-- CONTACT -->
 
