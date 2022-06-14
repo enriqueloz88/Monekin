@@ -45,6 +45,20 @@ export const appCurrencies: Currency[] = [
     },
   },
   {
+    code: 'INR',
+    names: {
+      en: 'Indian Rupee',
+      es: 'Rupia india',
+    },
+  },
+  {
+    code: 'IDR',
+    names: {
+      en: 'Indonesian rupiah',
+      es: 'Rupia indonesia',
+    },
+  },
+  {
     code: 'SEK',
     names: {
       en: 'Swedish Krona',
@@ -105,6 +119,13 @@ export const appCurrencies: Currency[] = [
     names: {
       en: 'Uruguayan Peso',
       es: 'Peso uruguayo',
+    },
+  },
+  {
+    code: 'PKR',
+    names: {
+      en: 'Pakistani Rupee',
+      es: 'Rupia Pakistaní',
     },
   },
   {
