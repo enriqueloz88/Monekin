@@ -4,9 +4,9 @@
     "or": "or",
     "understood": "Understood",
     "confirm": "Confirm",
-    "add": "Añadir",
-    "edit": "Editar",
-    "delete": "Eliminar",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
     "income": "Income",
     "expense": "Expense",
     "incomes": "Incomes",
@@ -126,7 +126,8 @@
     "FORM": {
       "description": "Description",
       "description-info": "Adding a note will help you find this transaction faster in the future",
-      "description.add": "Add a note"
+      "description.add": "Add a note",
+      "without_category": "Unspecified"
     }
   },
   "TRANSFER": {
@@ -296,6 +297,7 @@
     "EXPORT": {
       "title": "Export Data",
       "description": "Keep a backup of all your accounts, budgets, transactions, settings...",
+      "last": "Last backup: ",
       "csv": "Export to CSV",
       "csv.description": "Export all your transactions to a .csv file. With this file you will be able to carry out deep analyzes on other platforms such as Excel or Python",
       "csv.note": "<b>Note:</b> You will not be able to import your data into Monekin with CSV files, to do so use the 'Import data' box",
@@ -313,7 +315,13 @@
       "success": "Import performed successfully"
     },
     "GUIDE": {
-      "title": "Guide on how to import/export your data"
+      "title": "Guide on how to import/export your data",
+      "title.short": "Import/Export data",
+      "message0": "So that you can recover your data if you uninstall the application, change your mobile or if they are lost by accident, it is recommended to export them from time to time. Thanks to this export you will be able to recover these data at any time in this window.",
+      "message1": "To export your data press the 'Export data' box. A dialog should immediately open for you to select where you want to save your data. It is recommended to save it directly to your device's storage, although any other option like saving it in Google Drive or send it by mail is also perfectly valid.",
+      "message2": "Once you choose where to save/send your data, Monekin will save a file with all your information (transactions, budgets, categories, adjustments...). Absolutely everything will be saved in a JSON type file, with the name 'Monekin_backup_YEAR_MONTH_DAY',",
+      "message3": "Now you can recover your data at any time by selecting the 'Import data' option. When you press the box, you will have to search for the file that you previously exported. Once you have selected all your data that you have in that file, they will be loaded into our app .",
+      "message4": "When performing the data import, all the current data that the application has will be deleted and replaced by the new ones that you import."
     }
   },
   "SETTINGS": {

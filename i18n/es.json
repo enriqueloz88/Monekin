@@ -299,6 +299,7 @@
     "EXPORT": {
       "title": "Exportar datos",
       "description": "Guarda una copia de seguridad de todas tus cuentas, presupuestos, transacciones, ajustes...",
+      "last": "Ultima copia de seguridad: ",
       "csv": "Exportar a CSV",
       "csv.description": "Exporta todas tus transacciones a un fichero .csv. Con este fichero podras realizar analisis profundos en otras plataformas como Excel",
       "csv.note": "<b>Nota:</b> No podrás importar datos a Monekin con ficheros CSV. Para ello usa la función 'Importar datos'",
@@ -316,7 +317,13 @@
       "success": "Importación realizada con exito"
     },
     "GUIDE": {
-      "title": "Guía de como importar/exportar sus datos"
+      "title": "Guía de como importar/exportar sus datos",
+      "title.short": "Importar/Exportar datos",
+      "message0": "Para que puedas recuperar tus datos si desinstalas la aplicación, cambias de movil o estos son perdidos por accidente, se recomienda exportarlos cada cierto tiempo. Gracias a esta exportación podrás recuperar estos datos en cualquier momento en esta ventana.",
+      "message1": "Para exportar tus datos pulsa el cuadro de 'Exportar datos'. Inmediatamente se debería abrir un dialogo para que selecciones donde quieres guardar tus datos. Se recomienda guardarlos directamente en el almacenamineto de tu dispositvo, aunque cualquier otra opción como guardarlo en Google Drive o enviarlo por mail también es perfectamente valida.",
+      "message2": "Una vez elijas donde guardar/enviar tus datos, Monekin guardará un fichero con toda tu información (transacciones, presupuestos, categorías, ajustes...). Absolutamnete todo será guardado en un fichero de tipo JSON, con el nombre 'Monekin_backup_AÑO_MES_DIA',",
+      "message3": "Ahora podrás recuperar tus datos en cualquier momento seleccionando la opción 'Importar datos'. Al pulsar el cuadro, deberás buscar el fichero que exportaste previamente. Una vez seleccionado todos tus datos que teneis en ese fichero se cargaran en nuestra app.",
+      "message4": "Al realizar la importación de datos, todos los datos actuales que tiene la aplicación serán borrados y reemplazados por los nuevos que importes."
     }
   },
   "SETTINGS": {
